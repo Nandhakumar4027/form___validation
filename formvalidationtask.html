@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/JavaScript/formvalidationtask.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="form">
+            <h1>Create Login</h1>
+            <div class="input-group">
+                <label for="studentname"> Studentname</label>
+                <input type="text" id="studentname" name="studentname">
+                <span style="color: red;" id="name_error"></span>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <span  style ="color: red;"id="email_error"></span>
+            </div>
+            <div class="input-group">
+                <label for="password"> Password</label>
+                <input type="text" id="password" name="password">
+            <span style="color: red;" id="password_error"></span>
+            </div>
+                <div class="input-group">
+                    <label for="Confirmpassword"> Confirm Password</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword">
+                 <span style="color: red;" id="confirmpassword_error"></span>
+                </div>
+                <button type="submit" id="btn">Submit</button>
+                <br>
+                  <a href="" id="signin">Already have an account?</a>
+                  <a href="">Logout</a>
+        </form>
+
+    </div>
+
+    <script src="/JavaScript/formvalidation.js"></script>
+</body>
+</html>

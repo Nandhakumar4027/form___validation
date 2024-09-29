@@ -1,0 +1,63 @@
+body{
+ background: url(/asset/computer-4795762_1920.jpg);
+ margin:0;
+ background-attachment: fixed;
+ font-family: 'Poppins',sans-serif;
+}
+#form{
+    width: 600px;
+    margin: 20vh auto 0 auto;
+    background-color:rgba(0, 0, 0, 0.362);
+    backdrop-filter: blur(20px);
+    border-radius: 6px;
+    padding:10px 30px;
+    color: rgb(250, 244, 248);
+    font-size: 20px;
+    
+}
+#form input{
+    box-shadow: 5px solid black;
+}
+h1{
+    text-align: center;
+}
+#form #btn{
+background-color: rgb(43, 39, 165);
+color: white;
+padding: 10px;
+border-radius: 5px;
+width: 100%;
+cursor: pointer;
+font-size: 20px;
+border: 1px solid black;
+
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 70%;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.input-group input::foucs{
+    outline: 0;
+}
+.error{
+    color:rgb(215, 34, 34);
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-group .success input{
+    border-color: rgb(54, 187, 54);
+}
+.input-group .error input{
+    border-color: rgb(215, 34, 34);
+}
+
+
+
